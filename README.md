@@ -5,6 +5,10 @@ Customer Behaviour Analysis is a data analytics project examining purchasing pat
 
 ------------------------------------------------------------📊 Customer Behaviour Analysis-----------------------------------------------------------
 
+<img width="1867" height="1022" alt="Screenshot 2026-03-13 192820" src="https://github.com/user-attachments/assets/8e1afbb0-121b-46d9-b90e-4fad2e8294a6" />
+
+
+
 
 **Project Description**
 
