@@ -1,42 +1,169 @@
-# **Customer Retention and Revenue Analysis**
+<h1 align="center">📊 Customer Retention and Revenue Analysis</h1>
 
+<p align="center">
+  Turning customer transaction data into actionable business insights with <b>Python</b>, <b>SQL</b>, and <b>Power BI</b>
+</p>
 
-<img width="1867" height="1022" alt="Screenshot 2026-03-13 192820" src="https://github.com/user-attachments/assets/8e1afbb0-121b-46d9-b90e-4fad2e8294a6" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Data%20Cleaning-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/SQL-Data%20Analysis-orange?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi" />
+  <img src="https://img.shields.io/badge/Project-Business%20Insights-success?style=for-the-badge" />
+</p>
 
+---
 
-Customer Behaviour Analysis is a data analytics project examining purchasing patterns from 3,900 customer transactions. Using Python for data preprocessing, SQL for analysis, and Power BI for visualization, it uncovers insights into spending habits, product preferences, and subscription behavior to support data-driven business decisions.
+## 🚀 Project Overview
 
+This project analyzes **3,900 customer transactions** to uncover purchasing behavior, revenue trends, customer segments, and subscription patterns.  
+Using **Python** for preprocessing, **SQL** for business analysis, and **Power BI** for dashboarding, the project transforms raw transaction data into **decision-ready business insights**.
 
-------------------------------------------------------------📊 Customer Behaviour Analysis-----------------------------------------------------------
+The goal is to help businesses better understand:
+- who their valuable customers are
+- what drives purchasing behavior
+- where retention opportunities exist
+- how revenue trends vary across customer groups
 
+---
 
-**Project Description**
+## 🎥 Dashboard Preview
 
-Customer Behaviour Analysis is a data analytics project that explores purchasing patterns from 3,900 customer transactions across multiple product categories. The project aims to understand customer spending habits, product preferences, and subscription trends using Python, SQL, and Power BI. The analysis converts raw transactional data into meaningful insights that support data-driven business decisions.
+<p align="center">
+  <img width="100%" alt="Customer Retention and Revenue Analysis Dashboard" src="https://github.com/user-attachments/assets/8e1afbb0-121b-46d9-b90e-4fad2e8294a6" />
+</p>
 
-🗂 **Dataset Description**
+---
 
-The dataset contains customer shopping transaction records with demographic details, purchase information, and behavioral indicators. It includes attributes such as age, gender, location, purchase amount, category, shipping type, subscription status, discount usage, and review ratings. These features allow deeper analysis of customer preferences, purchasing trends, and product performance.
+## 📌 Business Problem
 
-🧹 **Data Cleaning & Preparation**
+Businesses often collect large amounts of customer transaction data, but raw data alone does not explain:
 
-Data preprocessing was performed using Python and Pandas to ensure accuracy and consistency. Missing values in the review rating column were handled using median imputation. Column names were standardized, redundant columns were removed, and new features such as age groups and purchase frequency indicators were created to improve analysis quality.
+- which customer groups contribute most to revenue
+- how subscriptions influence buying behavior
+- which products perform best across segments
+- where discounts are driving dependency instead of sustainable value
+- how customer insights can support retention and growth strategies
 
-🧠 **SQL Data Analysis**
+This project addresses those gaps by converting transaction-level data into clear, actionable insights.
 
-SQL queries were used to answer key business questions related to customer behavior. The analysis examined revenue distribution, discount usage patterns, top-rated products, customer segmentation, and spending trends across different customer groups. These queries helped identify important patterns and business opportunities within the dataset.
+---
 
-📈 **Power BI Dashboard**
+## 🗂 Dataset Description
 
-An interactive Power BI dashboard was developed to visualize the results of the analysis. It displays insights such as revenue distribution, customer segments, product performance, and purchase trends using charts and interactive filters. This allows stakeholders to quickly understand key metrics and patterns in the data.
+The dataset contains customer shopping transaction records along with demographic and behavioral attributes such as:
 
-💡 **Business Insights**
+- **Age**
+- **Gender**
+- **Location**
+- **Purchase Amount**
+- **Product Category**
+- **Shipping Type**
+- **Subscription Status**
+- **Discount Usage**
+- **Review Rating**
 
-The analysis revealed several valuable insights about customer behavior. Subscription users show strong purchasing potential, repeat buyers contribute significantly to revenue, and some products rely heavily on discounts to drive sales. These insights can help businesses improve marketing strategies, optimize product positioning, and enhance customer retention.
+These features make it possible to analyze purchasing patterns, spending behavior, product demand, and customer engagement.
 
+---
 
+## 🛠 Tech Stack
 
-👤 Author
-Kirti Kayan Das
-**Data Analytics**
-(Python • SQL • Power BI)
+| Tool | Purpose |
+|------|---------|
+| **Python** | Data cleaning and preprocessing |
+| **Pandas** | Data transformation and feature engineering |
+| **SQL** | Business query analysis |
+| **Power BI** | Interactive dashboard and visualization |
+
+---
+
+## 🧹 Data Cleaning & Preparation
+
+Data preprocessing was performed in **Python using Pandas** to improve data quality and analytical usability.
+
+### Key preparation steps:
+- handled missing values in the **review rating** column using median imputation
+- standardized column names for consistency
+- removed redundant or unnecessary fields
+- created derived features such as:
+  - **age groups**
+  - **purchase frequency indicators**
+- prepared structured data for SQL analysis and dashboarding
+
+---
+
+## 🧠 SQL Analysis
+
+SQL was used to answer key business questions and uncover customer behavior patterns.
+
+### Example analysis areas:
+- revenue distribution across customer groups
+- discount usage trends
+- top-performing product categories
+- subscription vs non-subscription purchasing behavior
+- customer segmentation insights
+- spending trends across demographic groups
+
+This step helped turn transaction data into business-focused observations.
+
+---
+
+## 📈 Power BI Dashboard
+
+An interactive **Power BI dashboard** was created to visualize major findings and improve stakeholder accessibility.
+
+### Dashboard highlights:
+- revenue distribution
+- customer segments
+- purchase trends
+- subscription behavior
+- product performance
+- interactive filtering for deeper exploration
+
+The dashboard helps stakeholders quickly understand customer and revenue patterns without manually reviewing raw data.
+
+---
+
+## 💡 Key Business Insights
+
+The project revealed several meaningful insights:
+
+- **Subscription customers show strong purchasing potential**
+- **Repeat buyers contribute significantly to revenue**
+- **Certain product categories are highly discount-dependent**
+- **Customer segments differ in both purchase behavior and spending patterns**
+- **Revenue trends can be better understood by combining behavioral and demographic signals**
+
+These insights can support:
+- stronger retention planning
+- targeted marketing strategies
+- better product positioning
+- more informed pricing and discount decisions
+
+---
+
+## ✅ Business Value
+
+This analysis helps transform customer data into actions that matter.
+
+### Potential business applications:
+- improve customer retention strategies
+- identify high-value customer groups
+- optimize discount effectiveness
+- strengthen product and category positioning
+- support revenue-focused decision-making
+
+---
+
+## 📷 Project Workflow
+
+```text
+Raw Customer Transactions
+        ↓
+Data Cleaning & Feature Engineering (Python, Pandas)
+        ↓
+Business Question Analysis (SQL)
+        ↓
+Dashboard Development (Power BI)
+        ↓
+Insights & Recommendations
